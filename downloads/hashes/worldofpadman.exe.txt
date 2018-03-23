@@ -1,0 +1,4 @@
+worldofpadman.exe
+md5    441a4acfe0ac9ba98b62ec8eecc8d07a
+sha1   658c95184a7c1dcd9142cb4f9f020b40de729b27
+sha256 5744ffe4f19e7582b2f3a91b8bd4a6eef1e356ee891d9a1ca7c9eaebae17fdd0

@@ -151,7 +151,7 @@ h6{
 h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 	margin:      0.5em 0 0.25em 0;
-	line-height: 1em;
+	line-height: 1.25em;
 }
 
 /* lists */
@@ -265,11 +265,18 @@ ul{
 	margin: 1em;
 }
 
+.news-text ul{
+	list-style: none;
+}
+
 .news-footer{
 	text-align: center;
 	padding:    0.25em;
 }
 
+.downloads{
+	text-align: center;
+}
 
 /* gallery */
 .gallery-album{
@@ -368,7 +375,7 @@ ul{
 }
 
 .sidebox img{
-	margin: 0.25em 0 0 0;
+	margin: 0;
 }
 
 .sidebox img.sb-header{
@@ -377,16 +384,16 @@ ul{
 
 /* sidebox navigation */
 .nav{
-	padding: 0;
+	padding: 0.5em 0.75em;
 }
 
 .nav a:link, .nav a:visited, .nav a{
 	display:         block;
 	text-align:      left;
 	text-decoration: none;
-	margin:          2px;
-	padding:         0.2em;
-	font-size:       140%;
+	font-size:       135%;
+	line-height:     1.25em;
+	margin: 0.15em;
 }
 
 .nav a:focus, .nav a:active, .nav a:hover{
@@ -394,6 +401,19 @@ ul{
 }
 
 /* WoP-Stuff */
+.sidebox-buttons{
+	text-align: center;
+	padding: 0.75em 0 0.5em;
+}
+
+.sidebox-buttons > a{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.sidebox-buttons > a > img{
+}
+
 .wop-header-slogan{
 	height:     20px;
 	margin:     0 0 0.75em 0;

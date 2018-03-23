@@ -1,0 +1,4 @@
+worldofpadman_musicpack_carnage.exe
+md5    d0fc8fabe41cc34cec46124790cbe705
+sha1   575bc69272f48cd9b2c66719a3704b338d3804b2
+sha256 ba60422669ea0f4bc90708aff04637ca0fe31ee0c10622a25f6031f6a062d53c

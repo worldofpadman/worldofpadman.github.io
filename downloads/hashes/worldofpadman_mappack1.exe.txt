@@ -1,0 +1,4 @@
+worldofpadman_mappack1.exe
+md5    5a31eaa829e2a6a8d7a70c799e7f6602
+sha1   740a0c0fa532225aa7f1a1e77f172ccaa80c6c9d
+sha256 3e39a44af402178c5bddad8ca0317c11bcc268e94f545b9bcba276c922253e1e
