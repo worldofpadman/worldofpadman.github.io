@@ -296,6 +296,8 @@ ul{
 /* 2 col+top+bottom - menu left */
 .main-body#outer-2cl{
 	min-width: 800px;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 .main-body#top-2cl{
