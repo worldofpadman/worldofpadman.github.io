@@ -1,0 +1,376 @@
+/*
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video{
+	margin:         0;
+	padding:        0;
+	border:         0;
+	font:           inherit;
+	font-size:      100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+
+/* elements */
+a{
+	text-decoration: none;
+	cursor:          pointer;
+}
+
+blockquote, q{
+	quotes: none;
+}
+
+ins{
+	text-decoration: none;
+}
+
+del{
+	text-decoration: line-through;
+}
+
+address{
+	margin:     0 0 1.5em;
+	font-style: italic;
+}
+
+abbr, acronym{
+	border-bottom: 1px dotted;
+}
+
+pre, code{
+	white-space: pre;
+	font:        100% 'andale mono', 'lucida console', monospace;
+	line-height: 1.5em;
+	text-align:  left;
+	font-weight: normal;
+	font-style:  normal;
+}
+
+sup, sub{
+	font-style: italic;
+	font-size:  50%;
+	padding:    0.1em;
+}
+
+sup{
+	vertical-align: super;
+}
+
+sub{
+	vertical-align: sub;
+}
+
+big{
+	font-size: 125%;
+}
+
+small{
+	font-size: 75%;
+}
+
+hr{
+	border:           0;
+	background-color: rgba(255, 255, 255, 0.3);
+	height:           1px;
+}
+
+/* pseudo classes */
+:focus{
+	outline: 0;
+}
+
+a:link, a:visited{
+	text-decoration:  none;
+	background-color: transparent;
+}
+
+a:focus, a:active, a:hover{
+	text-decoration:  none;
+	background-color: transparent;
+}
+
+/* Remove annoying border on linked images. */
+a img{
+	border: 0;
+}
+
+/* headings */
+h1{
+	font-size: 200%;
+}
+
+h2{
+	font-size: 150%;
+}
+
+h3{
+	font-size: 125%;
+}
+
+h4{
+	font-size: 100%;
+}
+
+h5{
+	font-size: 85%;
+}
+
+h6{
+	font-size: 75%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	margin:      0.5em 0 0.25em 0;
+}
+
+/* lists */
+li ul, li ol{
+	margin: 0.25em 1.5em;
+}
+
+ul, ol{
+	list-style-position: inside;
+	margin:              0.5em 1em 0.5em 0.5em;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+/* css-tables */
+.table-row{
+	display: table;
+	width:   100%;
+}
+
+.table-cell{
+	display:        table-cell;
+	overflow:       hidden;
+	vertical-align: top;
+	width:          auto;
+	padding:        0.5em;
+}
+
+/* float */
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+/* 2 col+top+bottom - menu left */
+.main-body#outer-2cl{
+	min-width: 800px;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.main-body#top-2cl{
+	padding: 1em 2em 1em 2em;
+}
+
+.main-body#left-2cl{
+	width:       14em;
+	margin-left: 2em;
+}
+
+.main-body#right-2cl{
+	margin: 0 2em 0 17em;
+}
+
+.main-body#bottom-2cl{
+	overflow: hidden;
+	padding:  1em 1em 1em 0;
+}
+
+.main-body#subnav-2cl{
+	text-align: left;
+	margin-bottom: 1em;
+	display: table;
+}
+
+.main-body#adbanner-2cl{
+	text-align: right;
+	padding:    0 0 0.5em 0;
+}
+
+/* main content */
+.main-body#inner{
+}
+
+/* overall footer */
+.main-body#footer{
+	margin:     1em 0;
+	text-align: center;
+	clear:      both;
+}
+
+.main-body#footer > div{
+	padding:     1em;
+	font-size:   75%;
+	line-height: 1.25em;
+}
+
+/* subnavigation */
+.subnav-inner{
+	padding: 0.25em;
+}
+
+.subnav-inner > a{
+	display:     table-cell;
+	padding:     0.25em 0.5em;
+	font-size:   100%;
+	line-height: 1;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.subnav-inner a{
+	text-decoration: none;
+}
+
+/* sideboxes */
+.sidebox{
+	text-align: center;
+	margin:     0 0 1em 0;
+}
+
+.sidebox-inner{
+	padding:  0;
+	overflow: hidden;
+}
+
+.sidebox img{
+	margin: 0;
+}
+
+.sidebox img.sb-header{
+	margin: 0.25em 0 0.5em 0;
+}
+
+/* sidebox navigation */
+.nav{
+	padding: 0.5em 0.75em;
+}
+
+.nav a:link, .nav a:visited, .nav a{
+	display:         block;
+	text-align:      left;
+	text-decoration: none;
+	font-size:       135%;
+	line-height:     1.25em;
+}
+
+.nav a:focus, .nav a:active, .nav a:hover{
+	text-decoration: none;
+}
+
+.sidebox-buttons{
+	text-align: center;
+	padding: 0.75em 0 0.5em;
+}
+
+.sidebox-buttons > a{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.sidebox-buttons > a > img{
+}
+
+.imagebox{
+	text-align: center;
+}
+
+/* remove some bottom margins... */
+.content > div:last-of-type{
+	margin-bottom: 0;
+}
+
+
+/* news */
+.news-item{
+	margin: 0 0 1em 0;
+}
+
+.news-body{
+}
+
+.news-head{
+	font-size: 125%;
+	padding:   0.5em;
+}
+
+.news-item.disabled > .news-body > .news-head{
+	background-color: rgba(255, 102, 0, 0.3);
+}
+
+.news-text{
+	font-size:   125%;
+	line-height: 1.35em;
+	padding:     0.5em;
+}
+
+.news-text img{
+	margin: 1em;
+}
+
+.news-text ul{
+	list-style: none;
+}
+
+.news-footer{
+	text-align: center;
+	padding:    0.25em;
+}
+
+.downloads{
+	text-align: center;
+}
+
+/* gallery */
+.gallery-album{
+	display:          inline-block;
+	vertical-align:   top;
+	width:            228px;
+	height:           200px;
+	margin:           4px 0 0 0;
+	padding:          1em 0;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gallery-footer{
+	text-align: center;
+}
+
+.content-box{
+	margin:     0;
+	padding:    0.5em;
+	text-align: left;
+}
+.content-box > h2{
+	font-size: 150%;
+	margin:    0 0 0.75em 0;
+}
+
+.content-box > h3{
+	font-size:       115%;
+	margin:          1em 0 0.75em 0;
+	text-decoration: underline;
+}
