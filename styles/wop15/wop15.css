@@ -121,3 +121,7 @@ a:focus, a:active, a:hover{
 #wop-header-05 img{
 	display: none;
 }
+
+.content-box.downloads{
+	text-align: center;
+}
