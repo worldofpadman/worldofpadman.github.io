@@ -190,6 +190,7 @@ a:focus, a:active, a:hover{
 }
 
 .main-body#footer{
+	margin:  0.5em 0;
 	padding: 0.5em;
 }
 .main-body#footer > .inner-box{
